@@ -2,22 +2,22 @@
 Bike Sharing Demand_EDA and ML<br>
 1-Importing library (Numpy-Pandas-Matplotlib.pyplot-Seaborn-DateTime_Sklearn)<br>
 2-Load and preparing data<br>
---Features:<br>
+--Features Description:<br>
 *datetime - hourly date + timestamp  
-*season -  1 = spring, 2 = summer, 3 = fall, 4 = winter 
-*holiday - whether the day is considered a holiday
-*workingday - whether the day is neither a weekend nor holiday
-*weather - 1: Clear, Few clouds, Partly cloudy, Partly cloudy 
-2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist 
-3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds 
-4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog 
-*temp - temperature in Celsius
-*atemp - "feels like" temperature in Celsius
-*humidity - relative humidity
-*windspeed - wind speed
-*casual - number of non-registered user rentals initiated
-*registered - number of registered user rentals initiated
-*count - number of total rentals
+*season -  1 = spring, 2 = summer, 3 = fall, 4 = winter <br>
+*holiday - whether the day is considered a holiday<br>
+*workingday - whether the day is neither a weekend nor holiday<br>
+*weather - 1: Clear, Few clouds, Partly cloudy, Partly cloudy <br>
+2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist <br>
+3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds <br>
+4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog <br>
+*temp - temperature in Celsius<br>
+*atemp - "feels like" temperature in Celsius<br>
+*humidity - relative humidity<br>
+*windspeed - wind speed<br>
+*casual - number of non-registered user rentals initiated<br>
+*registered - number of registered user rentals initiated<br>
+*count - number of total rentals<br>
 
 3-EDA<br>
 --Split time and date from 'datetime' column<br>
